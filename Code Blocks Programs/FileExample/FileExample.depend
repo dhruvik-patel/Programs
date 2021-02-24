@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1546106306 source:g:\practise programs\code blocks\fileexample\fileexample.cpp
+	<fstream>
+	<iostream>
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+        <title> HTML Forms</title>
+    </head>
+    <body>
+       
+        <form action="mailto:dhruvikj1@gmail.com" method="post">                                        
+            Name:<input type="text" size="20" maxlength="40" name="Name" /><br/>                    <!--  text  -->
+            Password:<input type="password" size="20" maxlength="40" name="Password" />
+        </form>
+        
+        <form action="mailto:dhruvikj1@gmail.com" method="post">
+            What is your favourite color?
+            <input type="radio" name="color" value="green"/>Green<br/>                               <!--   radio    --> 
+            <input type="radio" name="color" value="pink"/>Pink<br/>
+            <input type="radio" name="color" value="orange"/>Orange    
+        </form>
+            
+        <form action="mailto:dhruvikj1@gmail.com" method="post">
+               Your favourite cartoon characters...
+                <input type="checkbox" name="cartoon" value="Shinchan"/>Shinchan<br/>                <!--   check box    -->
+                <input type="checkbox" name="cartoon" value="Doraemon"/>
+                Doraemon<br/>
+                <input type="checkbox" name="cartoon" value="Oggy">Oggy And The Cochroches
+        </form>
+            
+        <form action="mailto:dhruvik@gmail.com" method="post">
+            College Degree?
+            <select name="degrees">                                                                    <!--   drop down box    -->
+                <option>BE</option>                                                                        
+                <option>Bcom</option>
+                <option>Doesn't Matter</option>
+            </select>
+        </form>
+            
+        <form action="mailto:dhruvik@gmail.com" method="post">
+            College Type?
+            <select multiple name="college" size="2">                                            <!--   selected drop down box    -->
+                <option value="E">Engineering</option>
+                <option value="C" selected>Commerce</option>
+                <option value="null">Doesn't Matter</option>
+            </select>
+        </form>
+        
+        <form action="mailto:dhruvik@gmail.com" method="post">
+            <textarea rows="5" cols="70" name="comments">
+            Enter commenrs(optional)
+            </textarea>
+        </form>
+             
+     </body>
+</html>
